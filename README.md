@@ -2,8 +2,7 @@
 *A tiny, header-only C++20 framework for building cross-platform desktop apps with WebView — lighter than Electron, yet just as flexible.*
 
 <p align="center">
-  <!-- ضع الشعار في المسار التالي ثم أزل هذا التعليق -->
-  <img src="assets/atom_logo.png" width="180" alt="Atom logo">
+  <img src="icon/image.png" width="180" alt="Atom logo">
 </p>
 
 ---
