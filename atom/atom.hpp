@@ -6415,7 +6415,7 @@ private:
       return "";
     }
   }
-  const String wirteAfterTag(const String code, const String tag, const String content)
+  const String writeAfterTag(const String code, const String tag, const String content)
   {
     String before, after;
     before = code.substr(0, code.find(tag));
@@ -6442,6 +6442,7 @@ private:
 
 public:
   App(bool Debug = false) { wv = new WebView(Debug, nullptr); }
+  ~App() { delete wv; }
   void setSources(String HTMLPath, String CSSPath, String JSPath) { updateCode(readFile(HTMLPath), readFile(CSSPath), readFile(JSPath)); }
   void setCodes(String HTML, String CSS, String JS) { updateCode(HTML, CSS, JS); }
   void setSize(int width, int height, bool resizable) { this->wv->set_size(width, height, resizable ? WEBVIEW_HINT_MAX : WEBVIEW_HINT_NONE); }
