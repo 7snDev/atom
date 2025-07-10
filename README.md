@@ -15,7 +15,6 @@ It is a single-header wrapper around the ultra-lightweight [webview](https://git
 |---------------|------|----------|
 | Delivery      | Single header (`atom.hpp`) | 100 + MB runtime |
 | Language      | Pure C++20                 | JS + C++ bindings |
-| Typical RAM*  | **30-50 MB**               | 150-300 MB |
 | Build system  | Makefile / CMake           | npm / node-gyp    |
 
 \*Measured with the bundled demo on Windows 11 and Ubuntu 24.04.
