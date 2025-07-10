@@ -95,7 +95,7 @@ const result = await window.add("2,3"); // "5"
 
 | C++ Method | Description |
 |------------|-------------|
-| `setSources(htmlPath, cssPath, jsPath)` | Load UI from files. |
+| `setSources(htmlPath, cssPath, jsPath)` | Load UI from files in runtime. |
 | `setCodes(html, css, js)`              | Inline strings instead of files. |
 | `setSize(width, height, resizable)`    | Fixed or resizable window. |
 | `setTitle(title)`                      | Native window caption. |
