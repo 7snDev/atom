@@ -6430,8 +6430,8 @@ private:
     _Code = _HTML;
     const String Tcss = "<style>" + _CSS + "</style>";
     const String Tjs = "<script>" + _JS + "</script>";
-    _Code = wirteAfterTag(_Code, "<body>", Tcss);
-    _Code = wirteAfterTag(_Code, "</body>", Tjs);
+    _Code = writeAfterTag(_Code, "<body>", Tcss);
+    _Code = writeAfterTag(_Code, "</body>", Tjs);
     this->wv->set_html(_Code);
   }
   void updateBinds()
