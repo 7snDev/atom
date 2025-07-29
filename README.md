@@ -44,7 +44,7 @@ Atom/
 sudo apt install g++ pkg-config libgtk-3-dev libwebkit2gtk-4.1-dev
 
 # Clone and build
-git clone https://github.com/<you>/Atom.git
+git clone https://github.com/7sndev/Atom.git
 cd Atom
 make       # produces ./atomic
 make run   # or ./atomic
